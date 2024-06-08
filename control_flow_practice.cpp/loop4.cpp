@@ -20,28 +20,86 @@
 // }
 
 // Write a C++ program to find all Perfect numbers between 1 to n where n is the input given by the user.
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
-int main()
-{
-    int n, sum;
-    cin >> n;
-     for(int i = 1; i <= n; i++)
-    {
-        sum = 0;
-        for(int j = 1; j < i; j++)
-        {
-            if(i % j == 0)
-            {
-                sum += j;
-            }
-        }
-        if(sum == i)
-        {
-            cout << i << " ";
-        }
-    }
+// int main()
+// {
+//     int n, sum;
+//     cin >> n;
+//      for(int i = 1; i <= n; i++)
+//     {
+//         sum = 0;
+//         for(int j = 1; j < i; j++)
+//         {
+//             if(i % j == 0)
+//             {
+//                 sum += j;
+//             }
+//         }
+//         if(sum == i)
+//         {
+//             cout << i << " ";
+//         }
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
+// Write a C++ program to input a number from the user and check whether the given number is a strong number or not.
+// #include<iostream>
+// #include<bits/stdc++.h>
+// using namespace std;
+    
+// int main(){
+// int n,fact=1,sum=0;
+// cin>>n;
+// int number=n;
+// while(n>0){
+// int rem=n%10;
+
+// for(int i=1;i<=rem;i++){
+
+// fact=fact*i;
+// }
+// int sum=sum+fact;
+// n/=10;
+// }
+// if(sum==number){
+//     cout<<"strong";
+// }
+// else{
+//     cout<<"not strong";
+// }
+//     return 0;
+// }
+
+
+// Write a C++ program to print all strong numbers between 1 to n where n is the input given by the user.
+
+// #include<iostream>
+// #include<bits/stdc++.h>
+// using namespace std;
+    
+// int main(){
+//    int n,num,sum,fact;
+//    cin>>n; 
+//    for(int i=1;i<n;i++){
+//     num=i;
+//     sum=0;
+//     while(num>0){
+//         fact=1;
+//         int rem=num%10;
+
+// for(int j=1;j<=rem;j++){
+
+// fact=fact*j;
+// }
+// sum+=fact;
+// num/=10;
+//     }
+//     if(sum==i){
+//     cout<<i<<" ";
+// }
+//    }
+//     return 0;
+// }
