@@ -140,7 +140,7 @@ int main(){
     cin>>unit;
     float money;
     if(unit<=50){
-        money=unit*0.50;
+        money=unit*0.5;
     }
     else if(unit<=150){
         money=(0.5*50)+(0.75*(unit-50));
