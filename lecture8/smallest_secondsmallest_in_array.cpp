@@ -75,28 +75,28 @@
 
 
 
-// #include<iostream>
-// #include<bits/stdc++.h>
-// using namespace std;
+#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
     
-// int main(){
-//     int siz;
-//     cin>>siz;
-//     int * const arr=new int [siz];
-//     for(int i=0;i<siz;i++){
-//     cin>>arr[i];
-//     }
-//     int first_min_ele=INT_MAX;
-//     int second_min_ele=INT_MAX;
+int main(){
+    int siz;
+    cin>>siz;
+    int * const arr=new int [siz];
+    for(int i=0;i<siz;i++){
+    cin>>arr[i];
+    }
+    int first_min_ele=INT_MAX;
+    int second_min_ele=INT_MAX;
 
-//     for(int i=0;i<siz;i++){
-//         if(arr[i]<first_min_ele)
-//         first_min_ele=arr[i];
+    for(int i=0;i<siz;i++){
+        if(arr[i]<first_min_ele)
+        first_min_ele=arr[i];
 
 
-//     }
-//     return 0;
-// }
+    }
+    return 0;
+}
 
 
 
